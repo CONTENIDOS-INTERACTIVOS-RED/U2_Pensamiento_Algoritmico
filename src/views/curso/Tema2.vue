@@ -1,343 +1,133 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 1. Fundamentos del Pensamiento Algorítmico'" :subTitulo="'2. Lógica algorítmica: secuencias, condiciones, ciclos.'")
+  BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'unidad 2: Algoritmos y la Revolución 4.0'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
 
-    p.mb-4(data-aos="fade-up") Al desarrollar un algoritmo, no se podrá simplemente escribir el mismo y esperar que el resultado sea el esperado; se debe realizar un análisis del problema, definir las variables, estructurar el procedimiento y tener claro cuál será el resultado a obtener, una vez que el algoritmo termine; para lograrlo, se requiere del uso de la lógica algorítmica. El análisis del problema es fundamental y se convierte en el insumo necesario a la hora de construir un algoritmo, no solo eficiente, sino también eficaz. 
+    .row.mb-4
+      .col-12.col-xl-7.d-flex.flex-column(data-aos="fade-right")
+        p.mb-4 La Inteligencia Artificial o IA, está definida como «un conjunto de técnicas, algoritmos y herramientas que nos permiten resolver problemas para los que es necesario cierto grado de inteligencia» (Ramírez, 2017); es una rama de la informática que se enfoca en la creación de sistemas que replican, con precisión, tareas que normalmente harían los humanos; algunas de ellas son: reconocimiento de voz, procesamiento del lenguaje natural, toma de decisiones, predicción de patrones y visión por computadora. Algunas IA imitan procesos cognitivos de los humanos, utilizando algoritmos y modelos matemáticos. 
+      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
 
-    p.mb-4(data-aos="fade-up") Antes de comenzar con la estructuración de un algoritmo, se deben contemplar algunos aspectos claves como: 
+    p.mb-4 Algunos ejemplos sencillos de utilización de la IA en tareas cotidianas, son: 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
-        AcordionA(tipo="b")(data-aos="zoom-in")
-          .div(titulo="Tipos de datos numéricos")
-            p Números enteros y reales, positivos o negativos y no llevan punto decimal.
-            p Ejemplos: +200, -10, 125, 483, 119, -550
-            
-          .div(titulo="Tipos de datos alfanuméricos")
-            p Datos de tipo carácter o cadena de caracteres, contienen letras, signos, símbolos especiales, etc. Se deben escribir dentro de comillas simples (') o dobles ("). Pueden contener números, pero no se pueden realizar operaciones matemáticas con ellos.
+    ImagenInfografica.color-acento-contenido.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
 
-          .div(titulo="Tipo carácter")
-            p Ejemplos: 'h', 'd', 'i'
-
-          .div(titulo="Tipo cadena")
-            p Ejemplos: "universidad", "Clave_24", "jose13"
-
-          .div(titulo="Memoria")
-            p Espacio reservado dentro del sistema, que contiene un nombre y una variable. Al declarar una variable como año = 2024, se puede inferir que la variable es año y su valor es 2024.
-
-          .div(titulo="Programa")
-            p Concepto elaborado por Von Neumann en 1946 y lo define como "conjunto de instrucciones que sigue la computadora, para alcanzar un resultado específico".
-
-      .col-lg-5
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/1.svg", alt="")
-
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.order-2
-        AcordionA(tipo="b")(data-aos="zoom-in")
-          .div(titulo="Constante")
-            p Es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.
-            
-          .div(titulo="Variables")
-            p Diferente a la constante, la variable sí cambia "varía" su valor, según los procedimientos que se lleven a cabo dentro del algoritmo.
-
-          .div(titulo="Nombres de Variables")
-            p Corresponde al nombre asignado a una variable en la memoria y deberá respetar las dos reglas siguientes:
-            ol.lista-ol
-              li 
-                span.text-bold 1. 
-                | Iniciar con una letra.
-              li 
-                span.text-bold 2. 
-                | Seguido de caracteres, como letras o números, sin acentuación.
-            p #[strong Ejemplo:] edad, num_cedula, direccion.
-            p Se debe tener en cuenta que el nombre debe ser claro y que identifique, de manera que su nombre sea representativo dentro del algoritmo. Por ejemplo, si se habla de una operación matemática como la multiplicación, se podrá utilizar num1, num2, multiplicacion.
-
-          .div(titulo="Expresiones")
-            p Los operadores y operandos componen una expresión. El operador determina el tipo de operación a realizar y los operandos serán los valores a procesar.
-
-      .col-lg-5.order-1
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/1.svg", alt="")
+      .tarjeta.bg-amarillo.p-4(x="47%" y="14%" numero="+")
+        .h5.mb-2 Asistentes virtuales
+        p Interpretación de comandos de voz.
+      .tarjeta.bg-amarillo.p-4(x="55%" y="29.5%" numero="+")
+        .h5.mb-2 Sistemas de recomendación
+        p Utilizan la IA para recomendar contenido multimedia.
+      .tarjeta.bg-amarillo.p-4(x="57%" y="49.5%" numero="+")
+        .h5.mb-2 Automatización del hogar
+        p Utilización de IA en las cámaras y aspiradoras para detectar presencia de objetos.
+      .tarjeta.bg-amarillo.p-4(x="55%" y="70%" numero="+")
+        .h5.mb-2 Diagnóstico médico
+        p De acuerdo a exámenes clínicos, se usa la IA para detección de enfermedades.
+      .tarjeta.bg-amarillo.p-4(x="47%" y="85.5%" numero="+")
+        .h5.mb-2 Chatbots
+        p Automatización en la atención al cliente utilizando IA para anticipar las preguntas frecuentes de los clientes.
 
 
-    p.mb-5(data-aos="fade-up") Los tipos de operadores que existen son: 
+    #t_2_1.titulo-segundo
+      div.d-flex
+        span.me-3 2.1  
+        h2 Ejemplos de aplicación de algoritmos y pseudocódigos 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo-figura.mb-2(data-aos="fade-up")
-          h5 Tabla 2.
-          span  Tipos de operadores
+    .bg-fondo-1.bg-full-width
+      .px-5.pb-md-3.py-4
+        .row.mb-5
+          div.px-5.pb-md-3.d-flex
+            .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
+              p.mb-5 A continuación se presentan algunos ejemplos prácticos de algoritmos junto con su representación en pseudocódigo, mostrando cómo resolver problemas específicos de forma estructurada y clara. A través de estos ejemplos, se busca ilustrar cómo los algoritmos permiten descomponer problemas complejos en pasos lógicos, facilitando la comprensión y la implementación en diversos lenguajes de programación.
+              a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ejemplos de aplicación de algoritmos y pseudocódigos.pdf')" target="_blank")
+                img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
+                p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de aplicación de algoritmos y pseudocódigos
+                
+            .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
+              img.h-100(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
 
-        .tabla-a.mb-5(data-aos="zoom-in")
-          table
-            thead
-              tr
-                th Tipo de operador
-                th Operador
-                th Operación
+        p.mb-5 Tipos de algoritmos comunes en IA:
 
-            tbody
-              tr(style="background-color: #FFF;")
-                th.text-center #[strong Asociativos]
-                th.text-center ()
-                td Método secuencial estructurado que sigue unas reglas definidas y cuyo objetivo es encontrar una conclusión válida.
-              tr(style="background-color: #F6F6F6;")
-                th.text-center(rowspan="5") #[strong Aritméticos]
-                th.text-center ^
-                td Potencia
-              tr(style="background-color: #F6F6F6;")
-                th.text-center *
-                td Multiplicación
-              tr(style="background-color: #F6F6F6;")
-                th.text-center /
-                td División
-              tr(style="background-color: #F6F6F6;")
-                th.text-center +
-                td Suma
-              tr(style="background-color: #F6F6F6;")
-                th.text-center -
-                td Resta
-              tr(style="background-color: #FFF;")
-                th.text-center(rowspan="6") #[strong Aritméticos]
-                th.text-center =
-                td Igual
-              tr(style="background-color: #FFF;")
-                th.text-center &lt;&gt; o &gt;&lt;
-                td Diferente
-              tr(style="background-color: #FFF;")
-                th.text-center &lt;
-                td Menor que
-              tr(style="background-color: #FFF;")
-                th.text-center &gt;
-                td Mayor que
-              tr(style="background-color: #FFF;")
-                th.text-center &lt;=
-                td Menor o igual que
-              tr(style="background-color: #FFF;")
-                th.text-center &gt;=
-                td Mayor o igual que
-              tr(style="background-color: #F6F6F6;")
-                th.text-center(rowspan="3") #[strong Lógicos]
-                th.text-center NOT
-                td Negación
-              tr(style="background-color: #F6F6F6;")
-                th.text-center AND
-                td Conjunción
-              tr(style="background-color: #F6F6F6;")
-                th.text-center OR
-                td Disyunción
+        .row.mb-4.justify-content-center 
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Supervisados
+              p.px-1.text-small.mb-0.d-flex.text-center Utilización de datos etiquetados para entrenar el modelo.
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-down")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center No supervisados
+              p.px-1.text-small.mb-0.d-flex.text-center Encuentra patrones en datos no etiquetados.
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Aprendizaje por refuerzo
+              p.px-1.text-small.mb-0.d-flex.text-center Aprendizaje a través de prueba y error; optimización de acciones, según las recompensas.
+          
+        .d-flex.align-items-center.col-11.col-md-10.col-lg-8.mb-5.mx-auto(data-aos="fade-up")
+          div.d-flex.align-items-center.bg-azul.px-3.py-4
+            img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-37.svg', alt='Texto que describa la imagen')
+            p.pe-xl-5.mb-0 Los algoritmos, anteriormente descritos, enseñan cómo la IA se aplica a diferentes contextos, mejorando la eficiencia en tareas cotidianas mediante predicción, optimización y automatización. 
 
+    p.mb-4 Algunos ejemplos de usos actuales de la IA, son:
+    p.mb-4 <strong>Tabla 1.</strong> Aplicaciones IA de uso gratuito
 
-        .bg-color-3.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/tema2/3.svg', alt='')
-            .col-lg
-              p.mb-0(data-aos="fade-up") #[strong Importante:] al #[strong negar un valor], este cambiará de verdadero a falso y viceversa; en la #[strong conjunción] si ambos valores son verdaderos, se obtendrá un valor verdadero; en cualquier otro caso, el resultado será falso y, en la #[strong disyunción], si ambos valores son falsos, el resultado será falso; en cualquier otro caso, será verdadero.
+    .tabla-a.mb-5.table-1
+      table
+        thead
+          tr
+            th.bg-morado.text-center(width="15%")
+            th.text-center.pt-4.pb-5 
+              span.table-1 IA de uso frecuente
+            th.text-center(width="50%")
+        tbody
+          tr
+          tr
+            td.text-bold.border-right-gris ChatGPT 
+            td.border-right-gris https://chat.openai.com
+            td Uno de los chatbots más utilizados, permite a través de "chats" responder a conversaciones, preguntas complejas, ayudar en tareas cotidianas, etc. 
+          tr
+            td.text-bold.border-right-gris Dall-E-3
+            td.border-right-gris https://openai.com/dall-e
+            td Herramienta de generación de imágenes, basada en textos. Permite crear fácilmente, arte digital.
+          tr
+            td.text-bold.border-right-gris Midjourney
+            td.border-right-gris https://www.midjourney.com
+            td Se focaliza en la creación de imágenes hiperrealistas, utilizando IA.
+          tr
+            td.text-bold.border-right-gris GitHub Copilot
+            td.border-right-gris https://github.com/features/copilot
+            td Herramienta útil para los programadores; gracias a la IA, sugiere ajustes, modificaciones y soluciones a los códigos.
+          tr
+            td.text-bold.border-right-gris Synthesia
+            td.border-right-gris https://www.synthesia.io
+            td Permite generar videos con avatares digitales que leen textos personalizados. Se utiliza en el ámbito corporativo e institucional.
 
-        .titulo-figura.mb-2(data-aos="fade-up")
-          h5 Tabla 3
-          span Tipos de operadores
-
-        .tabla-a.mb-5(data-aos="zoom-in")
-            table
-              thead
-                tr
-                  th Tipo de operador
-                  th Operador
-                  th Operación
-
-              tbody
-                tr(style="background-color: #FFF;")
-                  th.text-center #[strong Aritméticas]
-                  th.text-center 2 * (4-3) + 4
-                  td 6
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center(rowspan="3") #[strong Relacionales]
-                  th.text-center 7=5
-                  td Falso
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center 5&lt;3
-                  td Falso
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center 9&gt;8
-                  td Verdadero
-                tr(style="background-color: #FFF;")
-                  th.text-center(rowspan="2") #[strong Lógicas]
-                  th.text-center (4-1) &gt; (5-3)
-                  td Verdadero
-                tr(style="background-color: #FFF;")
-                  th.text-center (3-2) = (5-4)
-                  td Verdadero
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center(rowspan="3") #[strong Lógicos]
-                  th.text-center NOT
-                  td Negación
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center AND
-                  td Conjunción
-                tr(style="background-color: #F6F6F6;")
-                  th.text-center OR
-                  td Disyunción
-
-        .row.justify-content-center.align-items-start.mb-5
-          .col-lg-6
-            figure(data-aos="zoom-in")
-              img(src="@/assets/curso/tema2/4.png", alt="")
-          .col-lg-6
-            p.mb-3(data-aos="fade-up") Las reglas a seguir a la hora de resolver expresiones relacionales, son: 
-            
-            ol.lista-ol--cuadro(data-aos="fade-up").mb-3
-              li 
-                .lista-ol--cuadro__vineta
-                  span 1
-                | Primero resolver los paréntesis.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 2
-                | Encontrar valores de verdad para cada expresión.
-              li 
-                .lista-ol--cuadro__vineta
-                  span 3
-                | Aplicar jerarquía de operadores lógicos.
-            
-            p.mb-3(data-aos="fade-up") #[strong Ejemplo:]
-
-            .bg-color-4.p-4.mb-3(data-aos="fade-up")
-              p.mb-0.text-center.fw-bold (5*2)&gt;(2+3) AND (1+4)&lt;(2^2)
-
-            ol.lista-ol--cuadro(data-aos="fade-up").mb-3
-              li 
-                .lista-ol--cuadro__vineta
-                  span 1
-                | (10)&gt;(5) AND (5)&lt;(4)
-              li 
-                .lista-ol--cuadro__vineta
-                  span 2
-                | V AND F
-              li 
-                .lista-ol--cuadro__vineta
-                  span 3
-                | F
-
-
-        .bg-color-white.shadow-soft.py-4.px-lg-5(data-aos="zoom-in").mb-5
-          .row.justify-content-around.align-items-center
-            .col-md-auto
-              img(src="@/assets/template/bg-icono-link.svg", style="width: 90px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h3.mb-1 Aplicación de la jerarquía de operadores
-                  p.mb-0 Se puede poner en práctica lo aprendido, desarrollando los ejercicios propuestos “Aplicación de la jerarquía de operadores” del libro: Gaxiola Pacheco, C. G. & Flores Gutiérrez, D. L. (2008). Metodología de la programación con pseudocódigo enfocado al lenguaje C. Plaza y Valdés.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://elibro.net/es/ereader/tecnologicadeloriente/75935?page=24" target="_blank")
-                    span Ir al sitio web
-                    i.fas.fa-arrow-right
-
-    #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Metodología para la solución de algoritmos      
-
-    p.mb-5(data-aos="fade-up") Recordar que una computadora es un equipo y no va a funcionar correctamente si no se le dan las instrucciones precisas para ello, es importante a la hora de desarrollar un algoritmo; se debe tener presente el paso a paso secuencial, lógico y ordenado, que le asegurará el éxito en su solución.
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
-        p.mb-4(data-aos="fade-up") Existe una metodología sugerida para la solución de los algoritmos y se puede establecer de la siguiente manera:
-        
-        ol.lista-ol--cuadro(data-aos="fade-up").mb-3
-          li 
-            .lista-ol--cuadro__vineta
-              span 1
-            | Comprender el problema. 
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            | Generar un algoritmo inicial.
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            | Seleccionar una estrategia de solución para el algoritmo.
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            | Implementar el algoritmo usando un lenguaje de programación.
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            | Probar el algoritmo.
-          li 
-            .lista-ol--cuadro__vineta
-              span 6
-            | Documentar el algoritmo.
-          li 
-            .lista-ol--cuadro__vineta
-              span 7
-            | Optimizar el algoritmo.
-
-      .col-lg-6
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/tema2/5.svg", alt="")
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .bg-color-white.shadow-soft.py-4.px-lg-5(data-aos="zoom-in").mb-5
-          .row.justify-content-around.align-items-center
-            .col-md-auto
-              img(src="@/assets/template/bg-icono-link.svg", style="width: 90px;")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  p.mb-0 Para ampliar el concepto de metodología para la solución de algoritmos, puede consultar el libro: Gaxiola Pacheco, C. G. & Flores Gutiérrez, D. L. (2008). Metodología de la programación con pseudocódigo enfocado al lenguaje C. Plaza y Valdés.
-                .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(href="https://elibro.net/es/ereader/tecnologicadeloriente/75935?page=27" target="_blank")
-                    span Ir al sitio web
-                    i.fas.fa-arrow-right
-
-    #t_2_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.2] Secuencias, condiciones, ciclos 
-
-    .bg-full-width.bg-color-5
+    .bg-full-width.border-top-9-azul
       .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") ¿Cuáles son los componentes claves en la lógica algorítmica? 
-            p.mb-4(data-aos="fade-right") Descubra los componentes clave de la lógica algorítmica que transformarán su comprensión de la programación. Lo invitamos a explorar nuestro PDF "Secuencias, Condiciones y Ciclos" y a profundizar en estos fundamentos esenciales para desarrollar algoritmos eficientes y bien estructurados. ¡No se lo pierda y dé el siguiente paso en su aprendizaje!
-
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Secuencias_condiciones_y_ciclos.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Secuencias, Condiciones y Ciclos
-
-          .col-lg-5.d-none.d-lg-block.order-1
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/6.svg', alt='')
-
-    .bg-full-width.border-top.color-primario
-      .px-4.p-md-5
-        h2 MATERIAL COMPLEMENTARIO
-        .row.material-complementario
-          .col-12.col-md-6.col-lg-7
-            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/56561?page=50" target="_blank" rel="noopener noreferrer") Bisbal Riera, J. (2013). Manual de algorítmica: recursividad, complejidad y diseño de algoritmos. Editorial UOC.
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              span EDteam. (2023). Conceptos básicos y aplicaciones de Inteligencia Artificia. [video]. YouTube. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/75935?page=15" target="_blank" rel="noopener noreferrer") Gaxiola Pacheco, C. G. & Flores Gutiérrez, D. L. (2008). Metodología de la programación con pseudocódigo enfocado al lenguaje C. Plaza y Valdés.
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              span Zahera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/50327?page=37" target="_blank" rel="noopener noreferrer") Joyanes Aguilar, L. (2005). Programación en C: metodología, algoritmos y estructura de datos. McGraw-Hill España.
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/69931?page=35" target="_blank" rel="noopener noreferrer") Mancilla Herrera, A. (2015). Diseño y construcción de algoritmos. Universidad del Norte.
-          .col-12.col-md-6.col-lg-3.offset-lg-1
+              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              span Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas. 
+          .col-12.col-md-6.col-lg-3
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='')
+              img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
 </template>
 
 <script>

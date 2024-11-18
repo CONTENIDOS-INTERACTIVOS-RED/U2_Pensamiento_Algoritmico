@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 1.',
+        unidad: 'UNIDAD 2.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,67 +28,47 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'Unidad 1.',
+        unidad: 'Unidad 2.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Algoritmos y la Revolución 4.0.',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Sistema',
+            titulo: 'Algoritmos en la automatización de procesos industriales',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'Unidad 1.',
+        unidad: 'Unidad 2.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Algoritmos y la Revolución 4.0',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'Ejemplos de aplicación de algoritmos y pseudocódigos ',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
-            hash: 't_2_2',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'Unidad 1.',
+        unidad: 'Unidad 2.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Big Data: procesamiento de datos masivos, mediante algoritmos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+            titulo: 'Ejemplos de algoritmos usando Big Data',
             hash: 't_3_1',
           },
         ],
@@ -119,7 +99,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Pensamiento_Algoritmico_U2.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -135,79 +115,123 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Benítez Iglésias, R. (2014). Inteligencia artificial avanzada. Editorial UOC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/57582?page=36',
+    },
+    {
+      referencia:
+        'Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior. Corporación Universitaria Minuto de Dios.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/198403?page=20',
+    },
+    {
+      referencia:
+        'Casas Roma, J. Nin Guerrero, J. & Julbe López, F. (2019). Big data: análisis de datos en entornos masivos. Editorial UOC.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/117744?page=23',
+    },
+    {
+      referencia:
+        'Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital. Marge Books.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/106378?page=18',
+    },
+    {
+      referencia:
+        'Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/45161?page=86',
+    },
+    {
+      referencia:
+        'Izaguirre Castellanos, E. (2012). Sistemas de automatización. Editorial Feijóo.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/124330?page=72',
+    },
+    {
+      referencia:
+        'Kotler, P. Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital (1 ed.). LID Editorial España.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/269981?page=28',
+    },
+    {
+      referencia:
+        'López Murphy, J. J. & Zarza, G. (2017). La ingeniería del big data: cómo trabajar con datos. Editorial UOC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/59093?page=55',
+    },
+    {
+      referencia:
+        'Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas. Plaza y Valdés (México).',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/174182?page=58',
+    },
+    {
+      referencia:
+        'Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/42319?page=5',
+    },
+    {
+      referencia:
+        'Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación. Marge Books.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/117566?page=130',
+    },
+    {
+      referencia:
+        'Rojas, Á. (2022). El eslabón perdido del liderazgo 4.0 (1 ed.). Bubok Publishing S.L.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/260284?page=1',
+    },
+    {
+      referencia:
+        'Zahera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/172949?page=14',
     },
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Big Data',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'Se define como el procesamiento de grandes volúmenes de datos que por su volumen (tamaño, velocidad, variedad) no pueden ser procesados de manera tradicional',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Controladores en la automatización (on/off)',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'Son sistemas sencillos que activan o desactivan funciones según las condiciones de una variable',
     },
     {
-      termino: 'Condiciones',
+      termino: 'gadget',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'O también conocido como artilugio es un accesorio tecnológico pequeño que cumple una función específica, suelen ser tecnológicos o electrónicos y destacan por su utilidad y fácil transporte',
     },
     {
-      termino: 'Constante',
+      termino: 'IA',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'O inteligencia artificial es una rama de la informática que se enfoca en la creación de sistemas que replican con precisión tareas que normalmente harían los humanos, algunas de ellas son: reconocimiento de voz, procesamiento del lenguaje natural, toma de decisiones, predicción de patrones y visión por computadora',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'IoT',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'O también conocido como Internet de las cosas es una red de dispositivos interconectados que pueden transmitir datos automáticamente, es decir; no requiere de humanos para su funcionamiento',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Mantenimiento predictivo',
+      significado:
+        'Se encarga de predecir posibles fallos durante un proceso, también permite identificar piezas, elementos, componentes, etc., que requieran ser reemplazados anticipando fallas en el sistema y garantizando su continuidad',
     },
     {
-      termino: 'Identificador',
+      termino: 'Manufactura aditiva',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'También conocida como impresión en 3D permite ir agregando capa tras capa de material fundido hasta completar un diseño o una pieza, reduce costos al poder producir elementos nuevos o reemplazar los componentes deteriorados en una máquina',
     },
     {
-      termino: 'Memoria',
-      significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+      termino: 'Realidad aumentada',
+      significado: 'Recreación de espacios en ambientes virtuales',
     },
     {
-      termino: 'Proceso',
+      termino: 'Revolución 4.0',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
-    },
-    {
-      termino: 'Programa',
-      significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
-    },
-    {
-      termino: 'Pseudocódigo',
-      significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
-    },
-    {
-      termino: 'Secuencia',
-      significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
-    },
-    {
-      termino: 'Sistema',
-      significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
-    },
-    {
-      termino: 'Variable',
-      significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'Es el resultado del desarrollo tecnológico impulsado por los procesos industriales masificados, el uso de plantas de producción, la implementación de energía eléctrica, la aplicación de la electrónica, el desarrollo de la informática hasta llegar al IoT o Internet Of Things (Internet de las cosas), concepto que hace referencia a la interconexión que existe entre objetos de uso diario con internet y que permiten comunicarse con otros sistemas',
     },
   ],
   complementario: [],

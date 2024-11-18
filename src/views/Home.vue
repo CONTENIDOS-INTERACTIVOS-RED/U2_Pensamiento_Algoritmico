@@ -20,12 +20,11 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
-              p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
+              p.home-main-title Pensamiento Algorítmico
+              h1.home-title.mb-4.text-uppercase Algoritmos y la Revolución 4.0
+              p.descripcion.mb-4 Los algoritmos son la base de la automatización en la Revolución 4.0, integrándose en tecnologías como la inteligencia artificial y el análisis de datos para optimizar procesos industriales y facilitar la toma de decisiones. En esta unidad, exploraremos cómo los algoritmos transforman sectores clave, desde la robótica hasta el mantenimiento predictivo, permitiendo a las empresas mejorar la producción, reducir errores y operar sin intervención humana. 
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
-
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 ¡Prepárese para descubrir el papel crucial de los algoritmos en la era digital y cómo potencian la eficiencia industrial!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
