@@ -116,103 +116,94 @@ export default {
   referencias: [
     {
       referencia:
-        'Benítez Iglésias, R. (2014). Inteligencia artificial avanzada. Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/57582?page=36',
+        'Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/194403?page=20',
     },
     {
       referencia:
-        'Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior. Corporación Universitaria Minuto de Dios.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/198403?page=20',
+        'Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/45161?page=8',
     },
     {
       referencia:
-        'Casas Roma, J. Nin Guerrero, J. & Julbe López, F. (2019). Big data: análisis de datos en entornos masivos. Editorial UOC.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117744?page=23',
+        'Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/174182?page=58',
     },
     {
       referencia:
-        'Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital. Marge Books.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/106378?page=18',
+        'Paradojas del marketing para consumidores conectados Kotler, P. Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/269981?page=28',
     },
     {
       referencia:
-        'Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/45161?page=86',
+        'Zahera-Pérez, M. (2021). Industria 4.0: Dirección e Ingeniería de Proyectos',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/72949?page=14',
     },
     {
       referencia:
-        'Izaguirre Castellanos, E. (2012). Sistemas de automatización. Editorial Feijóo.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/124330?page=72',
+        'Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/117666?page=130',
     },
     {
       referencia:
-        'Kotler, P. Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital (1 ed.). LID Editorial España.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/269981?page=28',
+        'Garrell Guiu, A. & Guilera Agüera, L. (2019). La industria 4.0 en la sociedad digital',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/105178?page=18',
+    },
+    {
+      referencia: 'Rojas, A. (2022). El eslabón perdido del liderazgo 4.0',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/260204?page=1',
     },
     {
       referencia:
-        'López Murphy, J. J. & Zarza, G. (2017). La ingeniería del big data: cómo trabajar con datos. Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/59093?page=55',
+        'Izaguirre Castellanos, E. (2012). Sistemas de automatización',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/124330?page=72',
     },
     {
       referencia:
-        'Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas. Plaza y Valdés (México).',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/174182?page=58',
+        'Meseguer Iglesias, R. (2014). Inteligencia artificial avanzada',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/57582?page=36',
     },
     {
       referencia:
-        'Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/42319?page=5',
+        'Meseguer González, P. & López Montañés Badía, R. (2017). Inteligencia artificial',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/42319?page=5',
     },
     {
       referencia:
-        'Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación. Marge Books.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117566?page=130',
+        'Casas Roma, J., Nin Guerrero, A. & López López, F. (2019). Big data: análisis de datos en entornos masivos',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/117744?page=23',
     },
     {
       referencia:
-        'Rojas, Á. (2022). El eslabón perdido del liderazgo 4.0 (1 ed.). Bubok Publishing S.L.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/260284?page=1',
-    },
-    {
-      referencia:
-        'Zahera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/172949?page=14',
+        'López Murphy, J. J. & Zarza, G. (2017). La ingeniería del big data: cómo trabajar con datos',
+      link: 'https://elbro.net/esereader/tecnologicadeloriente/50093?page=55',
     },
   ],
   glosario: [
     {
       termino: 'Big Data',
       significado:
-        'Se define como el procesamiento de grandes volúmenes de datos que por su volumen (tamaño, velocidad, variedad) no pueden ser procesados de manera tradicional',
+        'se define como el procesamiento de grandes volúmenes de datos que por su volumen (tamaño, velocidad, variedad) no pueden ser procesados de manera tradicional',
     },
     {
-      termino: 'Controladores en la automatización (on/off)',
+      termino: 'Controladores en la automatización <em>(on/off)</em>',
       significado:
-        'Son sistemas sencillos que activan o desactivan funciones según las condiciones de una variable',
+        'son sistemas sencillos que activan o desactivan funciones según las condiciones de una variable',
     },
     {
       termino: 'gadget',
       significado:
-        'O también conocido como artilugio es un accesorio tecnológico pequeño que cumple una función específica, suelen ser tecnológicos o electrónicos y destacan por su utilidad y fácil transporte',
+        'o también conocido como artilugio es un accesorio tecnológico pequeño que cumple una función específica, suelen ser tecnológicos o electrónicos y destacan por su utilidad y fácil transporte',
     },
     {
       termino: 'IA',
       significado:
-        'O inteligencia artificial es una rama de la informática que se enfoca en la creación de sistemas que replican con precisión tareas que normalmente harían los humanos, algunas de ellas son: reconocimiento de voz, procesamiento del lenguaje natural, toma de decisiones, predicción de patrones y visión por computadora',
+        'o inteligencia artificial es una rama de la informática que se enfoca en la creación de sistemas que replican con precisión tareas que normalmente harían los humanos, algunas de ellas son: reconocimiento de voz, procesamiento del lenguaje natural, toma de decisiones, predicción de patrones y visión por computadora',
     },
     {
       termino: 'IoT',
       significado:
-        'O también conocido como Internet de las cosas es una red de dispositivos interconectados que pueden transmitir datos automáticamente, es decir; no requiere de humanos para su funcionamiento',
+        'o también conocido como Internet de las cosas es una red de dispositivos interconectados que pueden transmitir datos automáticamente, es decir; no requiere de humanos para su funcionamiento',
     },
     {
       termino: 'Mantenimiento predictivo',

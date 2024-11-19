@@ -400,9 +400,6 @@
               span Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital. Marge Books.
             p.d-flex.my-4
               img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               span Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
           .col-12.col-md-6.col-lg-3
             figure
