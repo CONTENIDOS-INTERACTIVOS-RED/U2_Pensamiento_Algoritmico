@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'INTRODUCCIÓN'")
+    BannerInterno(:titulo="'Unidad 2. Algoritmos y la Revolución 4.0'" :subTitulo="'INTRODUCCIÓN'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       .row.mb-4

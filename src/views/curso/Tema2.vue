@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'unidad 2: Algoritmos y la Revolución 4.0'")
+  BannerInterno(:titulo="'Unidad 2. Algoritmos y la Revolución 4.0'" :subTitulo="'2. Inteligencia artificial: conceptos básicos'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
 
     .row.mb-4
@@ -44,7 +44,7 @@
           div.px-5.pb-md-3.d-flex
             .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
               p.mb-5 A continuación se presentan algunos ejemplos prácticos de algoritmos junto con su representación en pseudocódigo, mostrando cómo resolver problemas específicos de forma estructurada y clara. A través de estos ejemplos, se busca ilustrar cómo los algoritmos permiten descomponer problemas complejos en pasos lógicos, facilitando la comprensión y la implementación en diversos lenguajes de programación.
-              a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Ejemplos de aplicación de algoritmos y pseudocódigos.pdf')" target="_blank")
+              a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")
                 img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
                 p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de aplicación de algoritmos y pseudocódigos
                 
@@ -112,18 +112,42 @@
     .bg-full-width.border-top-9-azul
       .px-4.p-md-5
         h2 Material complementario
-        .row
+        .row.material-complementario
           .col-12.col-md-6.col-lg-8
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad. 
+ 
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span EDteam. (2023). Conceptos básicos y aplicaciones de Inteligencia Artificia. [video]. YouTube. 
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/10637/8?page=18" target="_blank" rel="noopener noreferrer") Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital (desde el capítulo I pág.18 hasta el capítulo IV, Pág.87). Marge Books.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Zahera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz. 
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/260284?page=1" target="_blank" rel="noopener noreferrer") Rojas, A. (2022). El eslabón perdido del liderazgo 4.0. Bubok Publishing S.L.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas. 
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/124337?page=72" target="_blank" rel="noopener noreferrer") Izaguirre Castellanos, E. (2012). Sistemas de automatización. Editorial Feijóo.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/57582?page=36" target="_blank" rel="noopener noreferrer") Benítez Iglesias, R. (2014). Inteligencia artificial avanzada. Editorial Feijóo.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/42319?page=5" target="_blank" rel="noopener noreferrer") Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com" target="_blank" rel="noopener noreferrer") Orlowski, J. (Director). (2020). El dilema de las redes sociales [Película]. Exposure Labs, Argent Pictures & The Space Program.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://repositorio.uniandes.edu.co/server/api/core/bitstreams/5de0bd1-e483-4f68-9c1f-80ed66d1adca/content" target="_blank" rel="noopener noreferrer") Pachón, J. C. (2005). Diseño e implementación de algoritmos para la automatización y optimización de tareas básicas de un puente grúa. [Tesis, Universidad de los Andes].
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=OpkN1vUJi1E" target="_blank" rel="noopener noreferrer") EDteam. (2023, 25 de julio). Conceptos básicos y aplicaciones de Inteligencia Artificial. [Video]. YouTube.
+
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')

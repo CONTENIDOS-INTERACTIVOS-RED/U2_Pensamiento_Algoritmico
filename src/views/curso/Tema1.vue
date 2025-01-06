@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'unidad 2: Algoritmos y la Revolución 4.0'" :subTitulo="'1. Algoritmos y la Revolución 4.0.'")
+  BannerInterno(:titulo="'Unidad 2. Algoritmos y la Revolución 4.0'" :subTitulo="'1. Algoritmos y la Revolución 4.0.'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
 
     .bg-fondo-1.bg-full-width
@@ -64,14 +64,29 @@
                   i.fas.fa-chevron-right.me-2.text-morado
                   p.mb-0.text-small Inteligencia Artificial (IA)
 
-    .row.mb-5
+    .row
       .col-12.col-xl-7.d-flex.flex-column
         p Este desarrollo tecnológico está impulsado por los procesos industriales masificados, el uso de plantas de producción, la implementación de energía eléctrica, la aplicación de la electrónica, el desarrollo de la informática hasta llegar al IoT o Internet of Things (Internet de las cosas), concepto que hace referencia a la interconexión que existe entre objetos de uso diario con internet y que permiten comunicarse con otros sistemas. 
+
+        .bg-color-white.shadow-soft.p-4.mb-4
+          .row.justify-content-around.align-items-center
+            .col-md-auto
+              img(src="@/assets/template/video.svg", style="width: 80px;").mx-auto.mb-4.mb-lg-0
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0 Para ampliar el concepto sobre la Cuarta Revolución Industrial, le invitamos a ver el siguiente video: 
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=-OiaE6l8ysg" target="_blank")
+                    span Ver video
+                    i.fas.fa-arrow-right
+
         .d-flex.align-items-start.bg-amarillo.p-4.mb-4(data-aos="fade-right")
-          p.pe-xl-3.mb-0(data-aos="fade-up") El IoT se fundamenta en una red de dispositivos interconectados, que pueden transmitir datos automáticamente; es decir, no requiere de humanos para su funcionamiento. Su aplicabilidad no solo se encuentra dentro de los sensores de máquinas industriales, sino que también lo podemos localizar en dispositivos inteligentes de uso doméstico. El término IoT se usa frecuentemente en áreas como: tecnología, automatización, análisis de datos, etc. 
-        p.mb-0 IoT se convirtió en una pieza indispensable en el desarrollo de ciudades inteligentes y la automatización de los procesos industriales. 
+          p.pe-xl-3.mb-0(data-aos="fade-up") El IoT se fundamenta en una red de dispositivos interconectados, que pueden transmitir datos automáticamente; es decir, no requiere de humanos para su funcionamiento. Su aplicabilidad no solo se encuentra dentro de los sensores de máquinas industriales, sino que también lo podemos localizar en dispositivos inteligentes de uso doméstico. 
       .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')  
+    
+    p.mb-5 El término IoT se usa frecuentemente en áreas como: tecnología, automatización, análisis de datos, etc. IoT se convirtió en una pieza indispensable en el desarrollo de ciudades inteligentes y la automatización de los procesos industriales. 
 
     h2 ¿Qué es la Revolución 4.0?          
     .row.mb-4
@@ -121,7 +136,7 @@
               img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
           .col-md-12.col-lg-7.col-xl-8.mb-4.mb-md-0(data-aos="fade-left")
             h4 Internet de las Cosas o IoT
-            p(data-aos="fade-up") Permite la interconexión de dispositivos sin requerir atención humana para su funcionamiento; en este aspecto, se resaltan los sensores, conexiones a redes de datos, bluetooth , WiFi, los cuales permiten la interoperabilidad de los dispositivos y la integración de los componentes físicos.
+            p(data-aos="fade-up") Permite la interconexión de dispositivos sin requerir atención humana para su funcionamiento; en este aspecto, se resaltan los sensores, conexiones a redes de datos, bluetooth, WiFi, los cuales permiten la interoperabilidad de los dispositivos y la integración de los componentes físicos.
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Internet de Servicios o IOS", :icon="require('@/assets/curso/unidad/img-11.svg')")
         .row
           .d-none.d-lg-block.col-md-12.col-lg-5.col-xl-4(data-aos="fade-right")
@@ -214,11 +229,11 @@
         span.me-3 1.1  
         h2 Algoritmos en la automatización de procesos industriales
 
-    .row
+    .row.mb-5
       div.px-5.pb-md-3.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           p.mb-5 En el contexto de la automatización industrial, se estudian distintos tipos de algoritmos que permiten optimizar tareas repetitivas mediante procesos estructurados y eficientes. Estos algoritmos, como los secuenciales, condicionales, iterativos y de búsqueda, son aplicados en áreas como robótica, control de calidad y gestión de inventarios para mejorar la precisión, aumentar la producción y reducir errores en sistemas automatizados sin intervención humana. A continuación, en el PDF Algoritmos en la automatización de procesos industriales, lo invitamos a ampliar la información. 
-          a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_Algoritmos en la automatización de procesos industriales.pdf')" target="_blank")
+          a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_1')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Algoritmos en la automatización de procesos industriales
              
@@ -269,7 +284,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/0E5U__rvX8w?si=1aL7COTz0jG31brU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
     .bg-fondo-1.bg-full-width
@@ -292,7 +307,7 @@
                 p.text-small.px-4.pb-2 Permite analizar grandes volúmenes de datos obtenidos de los sensores, todo en tiempo real; detectando patrones en el comportamiento del sistema y anticipándose a fallos, su objetivo es el de optimizar los procesos y reducir los costos en la operación de los procesos industriales.
     .row.mb-4
       .col-12.col-md-11.mx-auto
-        p.mb-4 <strong>Figura 2.</strong> Aplicabilidad de los controladores On/Off
+        p.mb-4 <strong>Figura 2.</strong> Aplicaciones prácticas del mantenimiento predictivo con IA
         .row.mb-5.bg-azul-2.p-4.px-lg-5
           .col-6.col-xl-5.col-xxl-4.mx-auto.mb-4.mb-xl-0(data-aos="fade-left")
             img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')  
@@ -374,33 +389,43 @@
     .bg-full-width.border-top-9-azul
       .px-4.p-md-5
         h2 Material complementario
-        .row
+        .row.material-complementario
           .col-12.col-md-6.col-lg-8
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              span Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas. Plaza y Valdés.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/1984/03?page=20" target="_blank" rel="noopener noreferrer") ¿Qué es la Revolución 4.0? Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior. Corporación Universitaria Minuto de Dios.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior. Corporación Universitaria Minuto de Dios.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/4516/1?page=86" target="_blank" rel="noopener noreferrer") Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas: (ed.). Marge Books.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/1741/82?page=58" target="_blank" rel="noopener noreferrer") Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas. Pearson y Valdés México.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Rojas, Á. (2022). El eslabón perdido del liderazgo 4.0. Bubok Publishing S.L.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/269981?page=28" target="_blank" rel="noopener noreferrer") Cotler, P. & Gartaiaya, J. J. (2019). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación. Marge Books
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/172949?page=1" target="_blank" rel="noopener noreferrer") Cantera-Pérez, M. (2021). Industria 4.0 y la Dirección e Ingeniería de Proyectos. Servicio de Publicaciones de la Universidad de Cádiz.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Izaguirre Castellanos, E. (2012). Sistemas de automatización. Editorial Feijóo.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/117566?page=130" target="_blank" rel="noopener noreferrer") Pablo Martín, J. (2019). Lean Energy 4.0: guía de implementación. Marge Books.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital. Marge Books.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=-OiaE6i8ysg" target="_blank" rel="noopener noreferrer") World Economic Forum. (2016, 13 de abril). La Cuarta Revolución Industrial | Versión completa [Video]. YouTube.
+
             p.d-flex.my-4
-              img.me-3.mb-auto.mt-2(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              span Kotler, P., Kartajaya, H. & Setiawan, I. (2018). Marketing 4.0: transforma tu estrategia para atraer al consumidor digital. LID Editorial España.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/260284?page=1" target="_blank" rel="noopener noreferrer") Rojas, A. (2022). El eslabón perdido del liderazgo 4.0. Bubok Publishing S.L.
+
+
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
