@@ -47,7 +47,7 @@
     .row.mb-5
       .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
         p.mb-5 A continuación lo invitamos a consultar el PDF llamado "Ejemplos de algoritmos usando Big Data" el cual muestra de manera sencilla la capacidad del Big Data para resolver problemas complejos y transformar grandes volúmenes de datos en información útil. Los algoritmos de Big Data se aplican en múltiples sectores, como la salud, las finanzas, el comercio electrónico y las redes sociales, generando avances significativos en la toma de decisiones y la optimización de procesos. A través de estos ejemplos prácticos, veremos cómo estos algoritmos recopilan, procesan y analizan datos a gran escala para identificar patrones, realizar predicciones y proporcionar hallazgos valiosos que potencian la innovación y la eficiencia en las organizaciones. 
-        a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_2')" target="_blank")
+        a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")
           img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
           p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Ejemplos de algoritmos usando Big Data
       .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")

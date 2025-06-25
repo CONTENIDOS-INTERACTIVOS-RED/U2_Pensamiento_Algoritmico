@@ -233,7 +233,7 @@
       div.px-5.pb-md-3.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           p.mb-5 En el contexto de la automatización industrial, se estudian distintos tipos de algoritmos que permiten optimizar tareas repetitivas mediante procesos estructurados y eficientes. Estos algoritmos, como los secuenciales, condicionales, iterativos y de búsqueda, son aplicados en áreas como robótica, control de calidad y gestión de inventarios para mejorar la precisión, aumentar la producción y reducir errores en sistemas automatizados sin intervención humana. A continuación, en el PDF Algoritmos en la automatización de procesos industriales, lo invitamos a ampliar la información. 
-          a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_1')" target="_blank")
+          a.d-flex.pe-4.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Algoritmos en la automatización de procesos industriales
              
