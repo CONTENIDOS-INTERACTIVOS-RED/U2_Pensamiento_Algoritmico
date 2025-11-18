@@ -395,15 +395,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/1984/03?page=20" target="_blank" rel="noopener noreferrer") ¿Qué es la Revolución 4.0? Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior. Corporación Universitaria Minuto de Dios.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/198403?page=20" target="_blank" rel="noopener noreferrer") ¿Qué es la Revolución 4.0? Calvo Fonseca, J. R. (2020). La educación 4.0 en México: reflexiones y propuestas desde la educación superior: ( ed.). Corporación Universitaria Minuto de Dios.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/4516/1?page=86" target="_blank" rel="noopener noreferrer") Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas. Marge Books.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/45161?page=86" target="_blank" rel="noopener noreferrer") Hernández Ramos, E. M. & Peña Andrés, C. (2018). Cadena de suministro 4.0: beneficios y retos de las tecnologías disruptivas: ( ed.). Marge Books.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/1741/82?page=58" target="_blank" rel="noopener noreferrer") Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas. Pearson y Valdés México.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/174182?page=58" target="_blank" rel="noopener noreferrer") Martínez Martínez, A. (Coord.) & Álvarez Medina, M. D. L. (Coord.). (2020). Industria 4.0 en México: elementos diagnósticos y puesta en práctica en sectores y empresas: ( ed.). Plaza y Valdés (México).
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://dialnet.unirioja.es/descarga/articulo/10342347.pdf" target="_blank" rel="noopener noreferrer") Zazueta López, D. E., López Leyva, S., & Romero-Rubio, S. A. (2023). La necesidad de una educación 4.0 en México para adentrarse en la industria 4.0. Revista de Investigación en Tecnologías de la Información (RITI), 11(24), 62-75.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

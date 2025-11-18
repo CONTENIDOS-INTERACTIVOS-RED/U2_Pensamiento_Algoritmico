@@ -118,7 +118,7 @@
  
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/10637/8?page=18" target="_blank" rel="noopener noreferrer") Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital (desde el capítulo I pág.18 hasta el capítulo IV, Pág.87). Marge Books.
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/106378?page=18" target="_blank" rel="noopener noreferrer") Garrell Guiu, A. & Guilera Agüella, L. (2019). La industria 4.0 en la sociedad digital (desde el capítulo I pág.18 hasta el capítulo IV. Pág. 87): ( ed.). Marge Books.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
@@ -137,16 +137,16 @@
               a(href="https://elibro.net/es/ereader/tecnologicadeloriente/42319?page=5" target="_blank" rel="noopener noreferrer") Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com" target="_blank" rel="noopener noreferrer") Orlowski, J. (Director). (2020). El dilema de las redes sociales [Película]. Exposure Labs, Argent Pictures & The Space Program.
-
-            p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://repositorio.uniandes.edu.co/server/api/core/bitstreams/5de0bd1-e483-4f68-9c1f-80ed66d1adca/content" target="_blank" rel="noopener noreferrer") Pachón, J. C. (2005). Diseño e implementación de algoritmos para la automatización y optimización de tareas básicas de un puente grúa. [Tesis, Universidad de los Andes].
+              a(href="https://telefonicatech.com/blog/que-algoritmo-elegir-en-ml-aprendizaje" target="_blank" rel="noopener noreferrer") Telefónica Tech. (2021, diciembre 2). Tipos de aprendizaje en Machine Learning: supervisado y no supervisado. Recuperado de https://telefonicatech.com/blog/que-algoritmo-elegir-en-ml-aprendizaje
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=OpkN1vUJi1E" target="_blank" rel="noopener noreferrer") EDteam. (2023, 25 de julio). Conceptos básicos y aplicaciones de Inteligencia Artificial. [Video]. YouTube.
+              a(href="https://www.youtube.com/watch?v=oPj-wZ-nRXU" target="_blank" rel="noopener noreferrer") Taller Herramientas 4.0. (2020, 17 de septiembre). Taller Herramientas 4.0: Fundamentos de Machine Learning (Algoritmos para ML) [Video]. YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=0b7o8sQ5e3c" target="_blank" rel="noopener noreferrer") Codificando Bits. (2020, 16 de marzo). Los diferentes algoritmos del Machine Learning [Video]. YouTube.
 
           .col-12.col-md-6.col-lg-3
             figure
