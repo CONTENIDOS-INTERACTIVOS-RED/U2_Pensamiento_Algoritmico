@@ -423,7 +423,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=-OiaE6i8ysg" target="_blank" rel="noopener noreferrer") World Economic Forum. (2016, 13 de abril). La Cuarta Revolución Industrial | Versión completa [Video]. YouTube.
+              a(href="https://www.youtube.com/watch?v=-OiaE6l8ysg" target="_blank" rel="noopener noreferrer") World Economic Forum. (2016, 13 de abril). La Cuarta Revolución Industrial | Versión completa [Video]. YouTube.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

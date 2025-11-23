@@ -146,7 +146,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=0b7o8sQ5e3c" target="_blank" rel="noopener noreferrer") Codificando Bits. (2020, 16 de marzo). Los diferentes algoritmos del Machine Learning [Video]. YouTube.
+              a(href="https://www.youtube.com/watch?v=XNWKJsDNScw" target="_blank" rel="noopener noreferrer") Codificando Bits. (2020, 16 de marzo). Los diferentes algoritmos del Machine Learning [Video]. YouTube.
 
           .col-12.col-md-6.col-lg-3
             figure
